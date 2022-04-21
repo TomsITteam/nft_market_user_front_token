@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+@font-face {
+  font-family: "NEXONLv2GothicOTF";
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/NEXON/NEXON_Lv2_Gothic_Bold.woff');
+}
+
+@font-face {
+  font-family: "NEXONLv2GothicOTF";
+  font-weight: 300;
+  font-style: normal;
+  src: url('/fonts/NEXON/NEXON_Lv1_Gothic_OTF.woff');
+}
+
+@import "size";
+
+
+$korea-font: "NEXONLv2GothicOTF";
+
+$base-font-size: 15px;
+$base-font-weight : 200;
+$bold-font-weight : 500;
+
+
+*{
+  font-family: $korea-font;
+  font-weight: 200;
+}

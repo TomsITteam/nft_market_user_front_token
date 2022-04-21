@@ -1,0 +1,36 @@
+.DS_Store
+node_modules
+src/plugins
+src/assets/sass/gigaland_homepage_4.scss
+src/routes/gigaland_homepage_4.js
+src/skin/gigaland_homepage_4
+src/assets/sass/gigaland_homepage_5.scss
+src/routes/gigaland_homepage_5.js
+src/skin/gigaland_homepage_5
+src/assets/sass/gigaland_homepage_8.scss
+src/routes/gigaland_homepage_8.js
+src/skin/gigaland_homepage_8
+src/assets/sass/gigaland_homepage_retro.scss
+src/routes/gigaland_homepage_retro.js
+src/skin/gigaland_homepage_retro
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

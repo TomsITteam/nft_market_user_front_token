@@ -1,0 +1,27 @@
+[
+  {
+    "name"  : "game",
+    "value" : "\uD83D\uDC7E 게임",
+    "footer" : "게임 NFT"
+  },
+  {
+    "name"  : "art",
+    "value" : "\uD83C\uDF08 아트",
+    "footer" : "아트 NFT"
+  },
+  {
+    "name"  : "photo",
+    "value" : "\uD83D\uDCF8 사진",
+    "footer" : "사진 NFT"
+  },
+  {
+    "name"  : "memes",
+    "value" : "\uD83E\uDD21 밈",
+    "footer" : "밈 NFT"
+  },
+  {
+    "name"  : "music",
+    "value" : "\uD83C\uDFB5 음악",
+    "footer" : "음악 NFT"
+  }
+]

@@ -1,0 +1,65 @@
+.share {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.share--asset {
+  margin-top: 0;
+  z-index: 1;
+  width: auto;
+  display: inline-flex;
+
+}
+.share--asset .share__link {
+  min-width: 50px;
+  justify-content: center;
+  margin-top: 0;
+}
+.share--asset .share__link svg {
+  margin-right: 0;
+}
+.share--asset span {
+  display: none;
+}
+.share__link {
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 15px;
+  width: 48px;
+  height: 48px;
+  color: #fff;
+  font-size: 12px;
+  background-color: #fff;
+  font-weight: 200;
+  border-radius: 50%;
+  border:1px solid #ddd;
+}
+.share__link svg {
+  fill: rgba(0,0,0,0.5);
+  margin-right: 10px;
+  margin-top: 1px;
+  transition: fill 0.5s ease;
+}
+.share__link:last-child {
+  margin-right: 0;
+}
+
+.share__link:hover {
+}
+@media (min-width: 576px) {
+  .share--asset span {
+    display: block;
+  }
+
+  .share--asset .share__link svg {
+
+  }
+}

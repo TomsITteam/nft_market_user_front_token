@@ -1,0 +1,50 @@
+$base-big-font-size : 1rem;
+
+.big-size-5{
+  font-size:3.33rem;
+}
+
+.big-size-4{
+  font-size:2.66rem;
+}
+
+.big-size-3{
+  font-size:2rem;
+}
+
+.big-size-2{
+  font-size:1.4rem;
+}
+
+.overflow-hidden{
+  overflow: hidden !important;
+}
+
+.overflow-visible{
+  overflow: visible !important;
+}
+
+@for $i from 1 through 18 {
+  @media (min-width: 100px * $i) {
+    .big-size-#{$i}-5{
+      font-size:3.33rem;
+    }
+
+    .big-size-#{$i}-4{
+      font-size:2.66rem;
+    }
+
+    .big-size-#{$i}-3{
+      font-size:2rem;
+    }
+
+    .overflow-#{$i}-hidden{
+      overflow: hidden !important;
+    }
+
+    .overflow-#{$i}-visible{
+      overflow: visible !important;
+    }
+  }
+}
+

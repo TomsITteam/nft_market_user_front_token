@@ -1,0 +1,17 @@
+[
+  {
+    "priority" : 1,
+    "type" : "Background",
+    "value" : "Black"
+  },
+  {
+    "priority" : 2,
+    "type" : "Bottom lid",
+    "value" : "High"
+  },
+  {
+    "priority" : 3,
+    "type" : "Top lid",
+    "value" : "High"
+  }
+]

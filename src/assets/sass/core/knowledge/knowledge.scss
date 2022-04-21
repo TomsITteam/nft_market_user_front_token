@@ -1,0 +1,71 @@
+.knowledge {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: rgba(0,0,0,0.03) 0px 0.5rem 1rem !important;
+}
+.knowledge__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 200;
+  color: #2d3741;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.knowledge__title svg {
+  fill: $primary;
+  width: 24px;
+  height: auto;
+  margin-right: 10px;
+}
+.knowledge__list {
+  width: 100%;
+}
+.knowledge__list li {
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+.knowledge__list li:last-child {
+  margin-bottom: 0;
+}
+.knowledge__list span {
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 2;
+  font-size: 14px;
+  display: block;
+  padding-left: 4px;
+}
+.knowledge__list a {
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 2;
+  display: block;
+  padding-right: 4px;
+  font-weight: 200;
+}
+.knowledge__list a:hover {
+  color: $primary;
+}
+@media (min-width: 768px) {
+  .knowledge {
+    margin-top: 30px;
+  }
+}
